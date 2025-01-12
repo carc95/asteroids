@@ -50,7 +50,7 @@ def main():
             for bullet in shots:
                 if object.collide(bullet):
                     bullet.kill()
-                    object.kill()
+                    object.split()
                   
             
         for object in drawable:            
